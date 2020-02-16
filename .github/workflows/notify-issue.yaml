@@ -16,7 +16,6 @@ jobs:
       - name: "Issue Notification"
         uses: Gottox/irc-message-action@master
         continue-on-error: true
-        if: github.repository == 'void-linux/void-packages'
         with:
           notice: true
           server: "irc.snoonet.org"
