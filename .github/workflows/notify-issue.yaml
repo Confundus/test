@@ -22,7 +22,6 @@ jobs:
           server: "irc.snoonet.org"
           nickname: "testbot"
           channel: "##alexandria"
-          nickname: void-packages
           message: >-
             ${{ github.actor }}
             ${{ github.event.action }} issue
