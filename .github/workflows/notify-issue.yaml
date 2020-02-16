@@ -23,8 +23,6 @@ jobs:
           nickname: "testbot"
           channel: "##alexandria"
           nickname: void-packages
-          sasl_password: ${{ secrets.freenode_password_void_packages }}
-          tls: true
           message: >-
             ${{ github.actor }}
             ${{ github.event.action }} issue
