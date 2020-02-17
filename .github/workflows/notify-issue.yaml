@@ -20,7 +20,7 @@ jobs:
           notice: true
           nickname: "nhywyll"
           sasl_password: ${{ secrets.freenode_pw }}
-          channel: "##alexandria"
+          channel: "##testbed"
           response_timeout: 150
           message: >-
             ${{ github.actor }}
