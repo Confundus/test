@@ -22,6 +22,7 @@ jobs:
           nickname: "confundus"
           sasl_password: ${{ secrets.snoonet_pw }}
           channel: "##alexandria"
+          response_timeout: 150
           message: >-
             ${{ github.actor }}
             ${{ github.event.action }} issue
