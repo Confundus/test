@@ -18,9 +18,8 @@ jobs:
         continue-on-error: true
         with:
           notice: true
-          server: "irc.snoonet.org"
-          nickname: "confundus"
-          sasl_password: ${{ secrets.snoonet_pw }}
+          nickname: "nhywyll"
+          sasl_password: ${{ secrets.freenode_pw }}
           channel: "##alexandria"
           response_timeout: 150
           message: >-
