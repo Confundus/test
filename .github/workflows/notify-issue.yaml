@@ -19,7 +19,8 @@ jobs:
         with:
           notice: true
           server: "irc.snoonet.org"
-          nickname: "testbot"
+          nickname: "confundus"
+          sasl_password: ${{ secrets.snoonet_pw }}
           channel: "##alexandria"
           message: >-
             ${{ github.actor }}
